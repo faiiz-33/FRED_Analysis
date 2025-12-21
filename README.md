@@ -10,7 +10,7 @@ This project analyzes long-term U.S. macroeconomic relationships using FRED (Fed
 
 The analysis combines exploratory data analysis (EDA), linear regression models, and scenario analysis to extract structural insights rather than short-term forecasts.
 
-⸻
+⸻⸻⸻⸻⸻⸻
 
 Repository Structure
 
@@ -18,12 +18,11 @@ FRED-project
 
 data  
 	raw:    
-		Source:  
-		https://www.stlouisfed.org/research/economists/mccracken/fred-databases    
-		FRED-MD_YYYYmMM.csv  
-		  
+		  Source:    
+		  https://www.stlouisfed.org/research/economists/mccracken/fred-databases    
+		  FRED-MD_YYYYmMM.csv  
 	clean:   
-		fred_clean.csv  
+		  fred_clean.csv  
 python:   
 	FRED_analysis.ipynb    
 	README.md        # Technical insights from Python analysis   
@@ -33,7 +32,7 @@ Executive_Insights.md
 README.md            # (this file)  
 
 
-⸻
+⸻⸻⸻⸻⸻⸻
 
 Data Source
 	•	Primary source: FRED-MD (Federal Reserve Bank of St. Louis)
