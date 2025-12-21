@@ -14,25 +14,23 @@ The analysis combines exploratory data analysis (EDA), linear regression models,
 
 Repository Structure
 
-FRED-project/  
-│  
-├── data/  
-│   ├── raw/  
-│   │   ├── Source:  
-│   │   │   https://www.stlouisfed.org/research/economists/mccracken/fred-databases  
-│   │   └── FRED-MD_YYYYmMM.csv  
-│   │  
-│   └── clean/  
-│       └── fred_clean.csv  
-│  
-├── python/  
-│   ├── FRED_analysis.ipynb  
-│   └── README.md        # Technical insights from Python analysis   
-│  
-├── Executive_Insights.md  
-|  
-|  
-└── README.md            # (this file)  
+FRED-project  
+
+data  
+	raw:    
+		Source:  
+		https://www.stlouisfed.org/research/economists/mccracken/fred-databases    
+		FRED-MD_YYYYmMM.csv  
+		  
+	clean:   
+		fred_clean.csv  
+python:   
+	FRED_analysis.ipynb    
+	README.md        # Technical insights from Python analysis   
+	
+Executive_Insights.md  
+
+README.md            # (this file)  
 
 
 ⸻
