@@ -16,7 +16,7 @@ Repository Structure
 
 FRED-project    
 ```
-.
+
 ├── data
 │   ├── raw
 │   │   ├── Source
@@ -29,7 +29,6 @@ FRED-project
 │   └── README.md  # Technical insights from Python analysis
 ├── Executive_Insights.md
 └── README.md  # (this file)
-
 
 ```
 ⸻⸻⸻⸻⸻⸻
