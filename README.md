@@ -18,7 +18,7 @@ FRED-project
 
 .
 ├── data  
-│   ├── raw  
+    ├── raw  
 │   │   ├── Source:  
 │   │   │   └── https://www.stlouisfed.org/research/economists/mccracken/fred-databases  
 │   │   └── FRED-MD_YYYYmMM.csv  
