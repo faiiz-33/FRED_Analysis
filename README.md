@@ -16,7 +16,7 @@ Repository Structure
 
 FRED-project    
 
-.
+.  
 ├── data    
 |     ├── raw  
 │     │   ├── Source:  
