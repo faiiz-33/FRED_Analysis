@@ -2,19 +2,19 @@ FRED Macroeconomic Analysis
 
 Project Overview
 
-This project analyzes long-term U.S. macroeconomic relationships using FRED (Federal Reserve Economic Data), focusing on:
+This project analyzes long-term U.S. macroeconomic relationships using FRED (Federal Reserve Economic Data), focusing on:  
 	•	Inflation  
 	•	Unemployment  
 	•	Interest rates  
 	•	Housing prices  
 
-The analysis combines exploratory data analysis (EDA), linear regression models, and scenario analysis to extract structural insights rather than short-term forecasts.
+The analysis combines exploratory data analysis (EDA), linear regression models, and scenario analysis to extract structural insights rather than short-term forecasts.  
 
 ⸻⸻⸻⸻⸻⸻
 
-Repository Structure
+Repository Structure   
 
-FRED-project  
+FRED-project    
 
 data  
 	raw:    
@@ -34,50 +34,50 @@ README.md            # (this file)
 
 ⸻⸻⸻⸻⸻⸻
 
-Data Source
-	•	Primary source: FRED-MD (Federal Reserve Bank of St. Louis)
-	•	Coverage: 1988–2024 (aligned to housing price availability)
-	•	Frequency: Monthly
+Data Source  
+	•	Primary source: FRED-MD (Federal Reserve Bank of St. Louis)  
+	•	Coverage: 1988–2024 (aligned to housing price availability)  
+	•	Frequency: Monthly  
 
-All data is publicly available and downloaded directly from the official FRED repository.
-
-⸻
-
-Methods
-
-Exploratory Data Analysis (EDA)
-	•	Trend analysis of CPI, unemployment, interest rates, and housing prices
-	•	Distribution analysis and correlation checks
-	•	Identification of structural breaks (2008, 2020)
-
-Linear Regression Models
-	•	Inflation modeled as a function of unemployment and lagged interest rates
-	•	House price inflation modeled using inflation and lagged interest rates
-	•	Lag structure (12–24 months) used to reflect delayed policy transmission
-
-Scenario Analysis
-	•	“What-if” analysis under alternative macroeconomic conditions
-	•	Focus on interpretability rather than point prediction
+All data is publicly available and downloaded directly from the official FRED repository.  
 
 ⸻
 
-How to Run the Code
+Methods  
 
-Requirements
-	•	Python 3.9+
-	•	Libraries:
+Exploratory Data Analysis (EDA)  
+	•	Trend analysis of CPI, unemployment, interest rates, and housing prices  
+	•	Distribution analysis and correlation checks  
+	•	Identification of structural breaks (2008, 2020)  
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+Linear Regression Models  
+	•	Inflation modeled as a function of unemployment and lagged interest rates  
+	•	House price inflation modeled using inflation and lagged interest rates  
+	•	Lag structure (12–24 months) used to reflect delayed policy transmission  
+
+Scenario Analysis  
+	•	“What-if” analysis under alternative macroeconomic conditions  
+	•	Focus on interpretability rather than point prediction  
+
+⸻
+
+How to Run the Code  
+
+Requirements   
+	•	Python 3.9+  
+	•	Libraries:  
+
+pandas  
+numpy  
+matplotlib  
+seaborn  
+scikit-learn  
 
 
-open jupyter notebook python/FRED_analysis.ipynb
+open jupyter notebook python/FRED_analysis.ipynb  
 
 
-	.	Run cells top-to-bottom to:
+	.	Run cells top-to-bottom to:  
 	•	Load and clean data
 	•	Perform EDA
 	•	Train regression models
@@ -85,21 +85,21 @@ open jupyter notebook python/FRED_analysis.ipynb
 
 ⸻
 
-Key Outputs
-	•	Cleaned macroeconomic dataset
-	•	Regression coefficients with economic interpretation
-	•	Scenario tables for inflation and housing outcomes
-	•	Diagnostic plots and residual analysis
+Key Outputs  
+	•	Cleaned macroeconomic dataset  
+	•	Regression coefficients with economic interpretation  
+	•	Scenario tables for inflation and housing outcomes  
+	•	Diagnostic plots and residual analysis  
 
 ⸻
 
-Notes
-	•	This project emphasizes economic intuition and interpretability
-	•	Results are not intended as short-term forecasts
-	•	Power BI visuals are optional and used only for high-level storytelling
+Notes  
+	•	This project emphasizes economic intuition and interpretability  
+	•	Results are not intended as short-term forecasts  
+	•	Power BI visuals are optional and used only for high-level storytelling  
 
 ⸻
 
-Author
+Author  
 
 Faiz K. Alharthi
