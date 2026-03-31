@@ -15,7 +15,7 @@ The analysis combines exploratory data analysis (EDA), linear regression models,
 Repository Structure   
 
 FRED-project    
-
+```
 .
 ├── data
 │   ├── raw
@@ -30,6 +30,8 @@ FRED-project
 ├── Executive_Insights.md
 └── README.md  # (this file)
 
+
+```
 ⸻⸻⸻⸻⸻⸻
 
 Data Source  
