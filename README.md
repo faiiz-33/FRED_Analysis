@@ -3,10 +3,10 @@ FRED Macroeconomic Analysis
 Project Overview
 
 This project analyzes long-term U.S. macroeconomic relationships using FRED (Federal Reserve Economic Data), focusing on:
-	•	Inflation
-	•	Unemployment
-	•	Interest rates
-	•	Housing prices
+	•	Inflation  
+	•	Unemployment  
+	•	Interest rates  
+	•	Housing prices  
 
 The analysis combines exploratory data analysis (EDA), linear regression models, and scenario analysis to extract structural insights rather than short-term forecasts.
 
@@ -103,7 +103,3 @@ Notes
 Author
 
 Faiz K. Alharthi
-
-If you want next:
-	•	A shorter recruiter-facing README, or
-	•	A “How to talk about this project” section for interviews
