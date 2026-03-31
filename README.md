@@ -18,10 +18,10 @@ FRED-project
 
 .
 ├── data    
-│   	├── raw    
-│   	│   ├── Source    
-│   	│   │   └── https://www.stlouisfed.org/research/economists/mccracken/fred-databases  
-│   	│   └── FRED-MD_YYYYmMM.csv  
+│       ├── raw    
+│       │       ├── Source    
+│       │       │    └── https://www.stlouisfed.org/research/economists/mccracken/fred-databases  
+│       │            └── FRED-MD_YYYYmMM.csv  
 │   	└── clean    
 │       	└── fred_clean.csv  
 ├── python  
